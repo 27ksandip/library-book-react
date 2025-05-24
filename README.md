@@ -1,12 +1,54 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Library Book Frontend
 
-Currently, two official plugins are available:
+Library Book Frontend where you can create, edit , update and delete book records
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Features
+
+- CRUD Operation: create, read, edit, update books
+- Frontend validation
+- Used Bootstrap to improve ui 
+- Used React Router
+- Used vite for setup project
+
+
+
+## Project Setup
+
+```bash
+  clone project
+  git clone https://github.com/27ksandip/library-book-react.git
+
+  cd library-book-react
+```
+  ### Install Dependencies
+    npm install
+    npm run dev
+
+  ### Update .env 
+    php artisan serve on laravel backend
+    copy that url & paste on .env file
+    keep /api just replace base url 
+
+    VITE_API_BASE_URL=URL_HERE/api
+
+  ### Additionally 
+  if you have any error to connect backend with frontend floow bellow
+    
+    ipconfig geifaddr en0
+  copy this ip 
+
+    php artisan serve --host=paste_copied_id
+
+update .env
+
+    VITE_API_BASE_URL=URL/api
+## Used By
+
+To generate readme file i have used this site 
+https://readme.so/
+
+
